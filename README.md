@@ -65,16 +65,6 @@ ng serve --host 0.0.0.0 --port 4200
   [http://YOUR_LOCAL_IP:4200](http://YOUR_LOCAL_IP:4200)  
   (Replace `YOUR_LOCAL_IP` with your computer’s local IP address, e.g., `192.168.1.50`)
 
-## Customization
-
-- To change the default username, edit the `username` property in `src/app/app.component.ts`.
-- To allow users to set their own username, re-enable the username input logic in the Angular component.
-
-## Troubleshooting
-
-- If you see “refused to connect” from another device, ensure you started Angular with `--host 0.0.0.0` and your firewall allows port 4200.
-- If you see Angular errors about standalone components, ensure your `AppComponent` is not marked as `standalone: true` and you are using classic NgModule bootstrapping.
-
 ## License
 
 MIT 
